@@ -1,20 +1,10 @@
-import React from "react"; //ต้อง import ทุกครั้ง
-import { Header, Content, Footer } from "./func-components";
-import Calender from "./class-component";
+import React from "react";
+import Router3 from "./router3";
 
-function App() {
+export default function App() {
   return (
     <>
-      <Header />
-      <p>
-        <center>
-          <Calender />
-        </center>
-      </p>
-      <Content />
-      <Footer />
+      <Router3 />
     </>
   );
-} //เรียกการตกแต่งมาจาก style.css
-
-export default App; // นำออกมาใช้งาน
+}
